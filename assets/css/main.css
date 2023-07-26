@@ -3236,6 +3236,23 @@ input, select, textarea {
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: 20px;
 	  }
+
+	  @media screen and (max-width: 736px) {
+
+		.gallery {
+			display: block;
+		  }
+
+		  .gallery-item img {
+			width: 356px;
+			object-fit: cover;
+		  }
+
+		  .swiper-slide {
+			display: flex;
+		  }
+
+	}
   
 	  /* Styling for each gallery item */
 	  .gallery-item {
